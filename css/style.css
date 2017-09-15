@@ -1,48 +1,73 @@
-*{margin:0;
-padding:0;
-box-sizing:border-box;}
-body{background-color:black;
-font-family:'Permanent Marker',cursive;
-}
-.container{position: absolute;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -0%);
-  margin-top:5%;
-  margin-bottom:5%;
-width:auto;
-  color:white;
-}
-.btn{height:300px;
-width:300px !important;
-border:5px solid white;
- box-shadow: 0 3px 0 0 #222121, inset -1px -3px 10px 1px #515151;
-}
-p{display:inline;
-color:white;
-font-family:'Permanent Marker',cursive;}
-a{color:orange;
-font-family:'Permanent Marker',cursive;
-}
-.one{border-top-left-radius:10em;
-  background-color:green;
-}
-.two{border-top-right-radius:10em;
-  background-color:red;
-}
-.three{border-bottom-left-radius:10em;
-background-color:yellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.four{border-bottom-right-radius:10em;
-background-color:darkblue;
+body {
+  background-color: black;
+  font-family: 'Permanent Marker', cursive;
 }
 
+.container {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -0%);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: auto;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  height: 300px;
+  width: 300px !important;
+  border: 5px solid white;
+  box-shadow: 0 3px 0 0 #222121, inset -1px -3px 10px 1px #515151;
+  margin: 0;
+}
+
+p {
+  display: inline;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+
+a {
+  color: orange;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.one {
+  border-top-left-radius: 10em;
+  background-color: green;
+}
+
+.two {
+  border-top-right-radius: 10em;
+  background-color: red;
+}
+
+.three {
+  border-bottom-left-radius: 10em;
+  background-color: yellow;
+}
+
+.four {
+  border-bottom-right-radius: 10em;
+  background-color: darkblue;
+}
 
 button:active {
   transform: translate(0, 3px);
   box-shadow: none;
 }
+
 .btn,
 .btn:hover,
 .btn:active,
@@ -50,19 +75,52 @@ button:active {
   text-decoration: none !important;
   outline: none !important;
 }
-.fa-gamepad {color:white;}
-.play {height:50px;
-width:50px;
-border-radius:50%;
-background-color:#3D9970;}
-h4{display:inline;
-margin-left:300px;}
-.fa-toggle-off{color:white;
-font-size:2.6em;
-background-color:#3D9970;
-  border-radius:100%;
+
+.fa-gamepad {
+  color: white;
 }
-.fa-toggle-on{color:white;
-font-size:2.6em;
-background-color:#3D9970;
-  border-radius:100%;}
+
+.play {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #3d9970;
+}
+
+h4 {
+  display: inline;
+  margin-left: 300px;
+}
+
+.fa-toggle-off {
+  color: white;
+  font-size: 2em;
+  background-color: #3d9970;
+  border-radius: 100%;
+}
+
+.fa-toggle-on {
+  color: white;
+  font-size: 2em;
+  background-color: #3d9970;
+  border-radius: 100%;
+}
+
+.btn-container {
+  width: 609px;
+  height: 609px;
+  margin: auto;
+}
+
+h6 {
+  text-align: center;
+}
+
+#btn-area {
+  margin: auto;
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}

@@ -58,7 +58,7 @@ $(document).ready(function() {
   $('#play').click(function() {
     console.log('start');
     $('.btn').prop('disabled', false);
-    $('.btn').removeClass('blur');
+    $('.btn-container').removeClass('blur');
     generate();
     setTimeout(game, 1500);
     levelUp();
@@ -157,7 +157,7 @@ $(document).ready(function() {
     levelUp();
     animate = true;
     $('.btn').prop('disabled', true);
-    $('.btn').addClass('blur');
+    $('.btn-container').addClass('blur');
     $('.fa-toggle-off').toggleClass('fa-toggle-off fa-toggle-on');
   });
 
